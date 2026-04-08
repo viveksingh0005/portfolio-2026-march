@@ -22,13 +22,13 @@ import cLogo from './assets/tech_logo/c.png';
 import cppLogo from './assets/tech_logo/cpp.png';
 import javaLogo from './assets/tech_logo/java.png';
 import pythonLogo from './assets/tech_logo/python.png';
-import typescriptLogo from './assets/tech_logo/typescript.png';
+
 import gitLogo from './assets/tech_logo/git.png';
 import githubLogo from './assets/tech_logo/github.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
 import postmanLogo from './assets/tech_logo/postman.png';
 import mcLogo from './assets/tech_logo/mc.png';
-import figmaLogo from './assets/tech_logo/figma.png';
+
 import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
@@ -40,20 +40,18 @@ import agcLogo from './assets/company_logo/agc_logo.png';
 import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 
 // Education Section Logo's
-import glaLogo from './assets/education_logo/gla_logo.png';
+
 import bsaLogo from './assets/education_logo/simt.png';
 import vpsLogo from './assets/education_logo/sps.jpg';
 
 // Project Section Logo's
-import githubdetLogo from './assets/work_logo/github_det.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
-import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
-import webverLogo from './assets/work_logo/web_dig.png';
-import cmLogo from './assets/work_logo/cm.png';
-import imagesearchLogo from './assets/work_logo/image_search.png';
-import removebgLogo from './assets/work_logo/remove_bg.png';
+import ats from './assets/work_logo/ats2.png';
+import cloud from './assets/work_logo/cloud3.png';
+import news from './assets/work_logo/news.png';
+import resume from './assets/work_logo/resume.jpeg';
+import chatbot from './assets/work_logo/chatbot.jpg';
+import weather from './assets/work_logo/weather.jpg';
+
 
 
 export const SkillsInfo = [
@@ -205,8 +203,8 @@ export const projects = [
     title: "AI Resume ATS Scorer",
     description:
       "An intelligent AI-powered resume analyzer that scores resumes against ATS (Applicant Tracking System) standards. Provides detailed feedback, preict interview questions ,roadmap to gain desired skills and improvement tips to help candidates pass ATS filters and land more interviews.",
-    image: "/projects/ats-scorer.jpg",
-    tags: ["React JS", "Node.js", "AI/ML", "OpenAI", "Tailwind CSS","genai","zod"],
+    image: ats,
+    tags: ["React JS", "Node.js", "AI", "OpenAI", "Tailwind CSS","genai","zod"],
     github: "https://github.com/viveksingh0005/genai-mern-project-from-shreyians-coding",
   
   },
@@ -215,7 +213,7 @@ export const projects = [
     title: "cloud Image Storage Platform",
     description:
       "A fast and secure cloud-based image storage application with upload, organize, and share features. Built with modern frontend and backend technologies, allowing users to store and manage thousands of images efficiently with secure access control.",
-    image: "/projects/cloudvault.jpg",       
+    image: cloud,       
     tags: ["React JS", "Node.js", "MongoDB", "AWS S3", "Express"],
     github: "https://github.com/viveksingh0005/frontend-project-formy-backend-based-on-cloud-storage",
    
@@ -225,7 +223,7 @@ export const projects = [
     title: "  Resume Builder",
     description:
       "A beautiful and fast  resume builder with multiple professional templates. Users can create, edit, and download ATS-friendly resumes in minutes with smart suggestions and real-time preview.",
-    image: "/projects/resume-builder.jpg",
+    image: resume,
     tags: ["React JS", "Tailwind CSS", "Node.js", "PDF Generation","docker","aws","ec2","googleAuth"],
     github: "https://github.com/viveksingh0005/Resume",
    
@@ -235,7 +233,7 @@ export const projects = [
     title: "ai chatbot",
     description:
       "I created an ai based catbot whcih answers all your questions just like chagpt this was my first slef made ai project where I learned how I can implement ai in an application",
-    image: "/projects/weathersphere.jpg",
+    image: chatbot,
     tags: ["React JS", "express.js", "Tailwind CSS", "Framer Motion","genai","openai"],
     github: "https://github.com/viveksingh0005/ai-chatbot-vivek",
   
@@ -245,7 +243,7 @@ export const projects = [
     title: " Modern Weather App",
     description:
       "A clean and responsive weather application with real-time updates  and beautiful visualizations. Supports location detection and multiple cities.",
-    image: "/projects/weathersphere.jpg",
+    image: weather,
     tags: ["React JS", "Weather API", "Tailwind CSS", "Framer Motion"],
     github: "https://github.com/viveksingh0005/weather-app",
   
@@ -255,7 +253,7 @@ export const projects = [
     title: "News Aggregator",
     description:
       "A fast and intelligent news app that aggregates headlines from multiple sources with A summarization, personalized recommendations.Along with that it is responsive to different devices",
-    image: "/projects/newspulse.jpg",
+    image: news,
     tags: ["React JS", "News API", "Node.js", "Tailwind CSS"],
     github: "https://github.com/viveksingh0005/newsapp",
 
